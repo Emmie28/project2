@@ -1,0 +1,17 @@
+file:///c%3A/Users/Bruker/Documents/cs50web/project1/wiki/encyclopedia/templates/encyclopedia/index.html {"mtime":1626687499171,"ctime":1581159322000,"size":257,"etag":"378ldp17689","orphaned":false,"typeId":""}
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1>All Pages</h1>
+
+    <ul>
+        {% for entry in entries %}
+            <li><a href="url wiki">{{ entry }}</a></li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}

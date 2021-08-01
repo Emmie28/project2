@@ -1,0 +1,8 @@
+SessionID=a93921d7-9d96-4ca2-85f3-d0d8c1a0595f.1627423770246 Timestamp=2021-07-31T05:54:43:895+0200 ThreadID=7320 Component=ngl-lib_NglCommonLib Description="ImsCachedAccessToken - Cached access token fetch status: IMSConnectorStatus:41"
+SessionID=a93921d7-9d96-4ca2-85f3-d0d8c1a0595f.1627423770246 Timestamp=2021-07-31T05:54:43:895+0200 ThreadID=7320 Component=ngl-lib_NglController Description="PostLogFile: No Cached Access Token found with Status 503"
+SessionID=a93921d7-9d96-4ca2-85f3-d0d8c1a0595f.1627423770246 Timestamp=2021-07-31T05:54:43:896+0200 ThreadID=7320 Component=ngl-lib_UserPrincipalDao Description="GetUserPrincipal failed in GetUserProfile, status: 8"
+SessionID=a93921d7-9d96-4ca2-85f3-d0d8c1a0595f.1627423770246 Timestamp=2021-07-31T05:54:43:896+0200 ThreadID=7320 Component=ngl-lib_UserPrincipalDao Description="GetUserPrincipal failed in GetUserProfile, status: 8"
+SessionID=a93921d7-9d96-4ca2-85f3-d0d8c1a0595f.1627423770246 Timestamp=2021-07-31T05:54:43:896+0200 ThreadID=7320 Component=ngl-lib_NglCommonLib Description="ImsAccessTokenInternal - returned with NglStatusCode:218"
+SessionID=a93921d7-9d96-4ca2-85f3-d0d8c1a0595f.1627423770246 Timestamp=2021-07-31T05:54:43:896+0200 ThreadID=7320 Component=ngl-lib_NglAppLib ErrorID=218 Description="ImsAccessToken Status: Data Not Found : Principal"
+SessionID=a93921d7-9d96-4ca2-85f3-d0d8c1a0595f.1627423770246 Timestamp=2021-07-31T05:54:43:896+0200 ThreadID=7320 Component=ngl-lib_NglController Description="PostLogFile: No Access Token found with Status 218"
+SessionID=a93921d7-9d96-4ca2-85f3-d0d8c1a0595f.1627423770246 Timestamp=2021-08-01T06:32:08:903+0200 ThreadID=7320 Component=ngl-lib_UserPrincipalDao Description="GetUserPrincipal failed in GetUserProfile, status: 8"

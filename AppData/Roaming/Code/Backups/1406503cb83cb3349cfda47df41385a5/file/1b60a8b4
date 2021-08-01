@@ -1,0 +1,13 @@
+file:///c%3A/Users/Bruker/Documents/cs50web/project1/wiki/encyclopedia/templates/encyclopedia/wiki.html {"mtime":1627599141402,"ctime":1626830422909,"size":261,"etag":"37a7qn8468d","orphaned":false,"typeId":""}
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <form action = "{% url %}">
+        <input class="btn btn-primary" type="submit" name="submit" value="Edit">
+    </form>
+   {{entries | safe}}
+{% endbloc

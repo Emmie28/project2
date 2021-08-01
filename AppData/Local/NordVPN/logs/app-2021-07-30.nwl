@@ -1,0 +1,1464 @@
+2021-07-30 00:00:00.6830 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:00:00.7299 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:00:10.6842 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:00:10.7310 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:00:20.6946 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:00:20.7536 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:00:30.6898 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:00:30.7488 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:00:40.7048 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:00:40.7628 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:00:50.7081 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:00:50.7722 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:01:00.7025 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:01:00.7625 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:01:10.7272 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:01:10.7872 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:01:20.7208 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:01:20.7825 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:01:30.7385 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:01:30.7944 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:01:40.7458 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:01:40.8034 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:01:50.7339 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:01:50.7940 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:02:00.7404 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:02:00.8003 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:02:10.7512 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:02:10.8091 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:02:20.7582 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:02:20.8262 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:02:29.5450 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:02:29.5645 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:02:30.7512 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:02:30.8042 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:02:35.8231 INFO LoggingHandler Request POST https://zwyr157wwiu6eior.com/v1/notifications/tokens. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:02:35.8231 ERROR NLogLogger NotificationCenterClient: failed to get optin data: NordVpn.Core.Errors.NordVpnApiException: There is no internet connection to proceed request ---> NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetOptInData>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<>c__DisplayClass13_0.<<GetOptInData>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<TokenCheck>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<GetOptInData>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterApiClient.<GetOptInData>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterClient.<OptInAsync>d__22.MoveNext() NordVpn.Core.Errors.NordVpnApiException: There is no internet connection to proceed request ---> NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetOptInData>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<>c__DisplayClass13_0.<<GetOptInData>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<TokenCheck>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<GetOptInData>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterApiClient.<GetOptInData>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterClient.<OptInAsync>d__22.MoveNext()
+2021-07-30 00:02:36.0604 INFO LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/servers?limit=2147483647&fields[id]=&fields[load]=. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:02:36.0604 ERROR BareNordVpnApiClient Failed to download server loads. No internet. NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsyncFullResponse>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsync>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetServersLoadWithLimit>d__46.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<<GetServersLoad>b__7_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Polly.Retry.AsyncRetryEngine.<ImplementationAsync>d__0`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy.<ExecuteAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Wrap.AsyncPolicyWrapEngine.<>c__DisplayClass1_0`1.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Fallback.AsyncFallbackEngine.<ImplementationAsync>d__0`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy`1.<ExecuteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Wrap.AsyncPolicyWrapEngine.<ImplementationAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy`1.<ExecuteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<GetServersLoad>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<Servers>d__6.MoveNext()
+2021-07-30 00:02:40.7537 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:02:40.8165 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:02:50.7723 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:02:50.8402 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:03:00.7644 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:03:00.8143 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:03:10.7834 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:03:10.8427 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:03:20.7957 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:03:20.8669 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:03:30.7995 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:03:30.8515 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:03:40.8084 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:03:40.8734 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:03:50.8130 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:03:50.8719 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:04:00.8199 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:04:00.8788 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:04:10.8167 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:04:10.8892 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:04:20.8246 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:04:20.8827 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:04:30.8455 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:04:30.9108 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:04:40.8582 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:04:40.9162 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:04:50.8725 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:04:50.9335 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:05:00.8899 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:05:00.9465 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:05:10.8908 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:05:10.9426 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:05:20.9081 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:05:20.9733 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:05:30.9109 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:05:30.9779 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:05:40.9268 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:05:40.9736 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:05:50.9331 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:05:51.0010 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:06:00.9378 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:06:01.0005 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:06:10.9535 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:06:11.0543 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:06:20.9782 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:06:21.0531 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:06:30.9871 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:06:31.0586 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:06:40.9966 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:06:41.0674 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:06:50.9984 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:06:51.0576 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:07:01.0254 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:07:01.0873 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:07:11.0320 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:07:11.0841 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:07:21.0392 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:07:21.0878 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:07:29.7649 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:07:29.8040 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:07:31.0368 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:07:31.1196 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:07:36.0540 INFO LoggingHandler Request POST https://zwyr157wwiu6eior.com/v1/notifications/tokens. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:07:36.0540 ERROR NLogLogger NotificationCenterClient: failed to get optin data: NordVpn.Core.Errors.NordVpnApiException: There is no internet connection to proceed request ---> NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetOptInData>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<>c__DisplayClass13_0.<<GetOptInData>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<TokenCheck>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<GetOptInData>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterApiClient.<GetOptInData>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterClient.<OptInAsync>d__22.MoveNext() NordVpn.Core.Errors.NordVpnApiException: There is no internet connection to proceed request ---> NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetOptInData>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<>c__DisplayClass13_0.<<GetOptInData>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<TokenCheck>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<GetOptInData>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterApiClient.<GetOptInData>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterClient.<OptInAsync>d__22.MoveNext()
+2021-07-30 00:07:36.2759 INFO LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/servers?limit=2147483647&fields[id]=&fields[load]=. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:07:36.2759 ERROR BareNordVpnApiClient Failed to download server loads. No internet. NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsyncFullResponse>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsync>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetServersLoadWithLimit>d__46.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<<GetServersLoad>b__7_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Polly.Retry.AsyncRetryEngine.<ImplementationAsync>d__0`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy.<ExecuteAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Wrap.AsyncPolicyWrapEngine.<>c__DisplayClass1_0`1.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Fallback.AsyncFallbackEngine.<ImplementationAsync>d__0`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy`1.<ExecuteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Wrap.AsyncPolicyWrapEngine.<ImplementationAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy`1.<ExecuteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<GetServersLoad>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<Servers>d__6.MoveNext()
+2021-07-30 00:07:41.0487 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:07:41.1070 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:07:51.0517 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:07:51.1115 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:08:01.0740 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:08:01.1364 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:08:11.0710 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:08:11.1365 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:08:21.0806 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:08:21.1395 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:08:31.0919 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:08:31.1913 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:08:41.1158 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:08:41.1783 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:08:51.1335 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:08:51.1954 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:09:01.1275 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:09:01.1743 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:09:11.1422 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:09:11.2046 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:09:21.1624 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:09:21.2134 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:09:31.1621 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:09:31.2216 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:09:41.1657 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:09:41.2154 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:09:51.1535 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:09:51.2225 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:10:01.1729 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:10:01.2428 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:10:11.1893 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:10:11.2550 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:10:21.1889 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:10:21.2639 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:10:28.9468 INFO DispatcherTimerPeriodickTask Executing periodic task <>c__DisplayClass6_0:<Start>b__0 
+2021-07-30 00:10:28.9468 INFO DispatcherTimerPeriodickTask Executing periodic task <>c__DisplayClass6_0:<Start>b__0 
+2021-07-30 00:10:28.9468 INFO DispatcherTimerPeriodickTask Executing periodic task <>c__DisplayClass7_4:<HookEvents>b__26 
+2021-07-30 00:10:28.9526 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:10:31.1901 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:10:31.2719 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:10:35.2255 INFO LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/servers?limit=2147483647&fields[id]=&fields[name]=&fields[station]=&fields[hostname]=&fields[load]=&fields[status]=&fields[created_at]=&fields[locations.longitude]=&fields[locations.latitude]=&fields[locations.country.name]=&fields[locations.country.code]=&fields[locations.country.id]=&fields[locations.country.city.name]=&fields[locations.country.city.id]=&fields[location.country.city.hub_score]=&fields[technologies.identifier]=&fields[groups.id]=&fields[groups.type.id]=&fields[groups.title]=&fields[technologies.pivot]=&fields[technologies.metadata]=&fields[specifications.identifier]=&fields[specifications.values.value]=. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:10:35.2255 ERROR BareNordVpnApiClient Failed to download servers. No internet. NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsyncFullResponse>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsync>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetServersWithLimit>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.FileBackedServers.<Servers>d__6.MoveNext()
+2021-07-30 00:10:35.2255 ERROR NLogLogger Failed to download servers NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsyncFullResponse>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsync>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetServersWithLimit>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.FileBackedServers.<Servers>d__6.MoveNext()
+2021-07-30 00:10:41.2018 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:10:41.2633 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:10:51.2125 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:10:51.2713 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:11:01.2244 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:11:01.2771 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:11:11.2240 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:11:11.2769 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:11:21.2263 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:11:21.3102 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:11:31.2263 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:11:31.3082 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:11:41.2293 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:11:41.2889 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:11:51.2431 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:11:51.3051 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:12:01.2478 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:12:01.3145 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:12:11.2671 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:12:11.3451 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:12:21.2994 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:12:21.3575 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:12:29.9604 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:12:29.9916 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:12:31.3032 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:12:31.3700 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:12:36.2659 INFO LoggingHandler Request POST https://zwyr157wwiu6eior.com/v1/notifications/tokens. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:12:36.2659 ERROR NLogLogger NotificationCenterClient: failed to get optin data: NordVpn.Core.Errors.NordVpnApiException: There is no internet connection to proceed request ---> NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetOptInData>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<>c__DisplayClass13_0.<<GetOptInData>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<TokenCheck>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<GetOptInData>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterApiClient.<GetOptInData>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterClient.<OptInAsync>d__22.MoveNext() NordVpn.Core.Errors.NordVpnApiException: There is no internet connection to proceed request ---> NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetOptInData>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<>c__DisplayClass13_0.<<GetOptInData>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<TokenCheck>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<GetOptInData>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterApiClient.<GetOptInData>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterClient.<OptInAsync>d__22.MoveNext()
+2021-07-30 00:12:36.5172 INFO LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/servers?limit=2147483647&fields[id]=&fields[load]=. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:12:36.5172 ERROR BareNordVpnApiClient Failed to download server loads. No internet. NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsyncFullResponse>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsync>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetServersLoadWithLimit>d__46.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<<GetServersLoad>b__7_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Polly.Retry.AsyncRetryEngine.<ImplementationAsync>d__0`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy.<ExecuteAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Wrap.AsyncPolicyWrapEngine.<>c__DisplayClass1_0`1.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Fallback.AsyncFallbackEngine.<ImplementationAsync>d__0`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy`1.<ExecuteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Wrap.AsyncPolicyWrapEngine.<ImplementationAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy`1.<ExecuteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<GetServersLoad>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<Servers>d__6.MoveNext()
+2021-07-30 00:12:41.3009 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:12:41.3618 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:12:51.3145 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:12:51.3760 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:13:01.3169 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:13:01.3757 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:13:11.3174 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:13:11.3691 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:13:21.3238 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:13:21.3938 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:13:31.3224 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:13:31.3834 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:13:41.3252 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:13:41.3721 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:13:51.3427 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:13:51.4051 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:14:01.3659 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:14:01.4230 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:14:11.3796 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:14:11.4339 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:14:21.3851 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:14:21.4584 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:14:31.3892 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:14:31.4422 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:14:41.4013 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:14:41.4616 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:14:51.3964 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:14:51.4760 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:15:01.3875 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:15:01.4395 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:15:11.3909 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:15:11.4408 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:15:21.3887 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:15:21.4467 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:15:31.3913 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:15:31.4602 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:15:41.3907 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:15:41.4532 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:15:51.3919 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:15:51.4558 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:16:01.3991 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:16:01.4522 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:16:11.4008 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:16:11.4597 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:16:21.3963 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:16:21.8137 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:16:31.4076 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:16:31.4700 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:16:41.4195 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:16:41.4757 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:16:51.4320 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:16:51.4989 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:17:01.4365 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:17:01.5020 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:17:11.4505 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:17:11.5054 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:17:21.4532 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:17:21.5312 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:17:30.1311 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:17:30.1543 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:17:31.4558 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:17:31.5327 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:17:36.4162 INFO LoggingHandler Request POST https://zwyr157wwiu6eior.com/v1/notifications/tokens. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:17:36.4162 ERROR NLogLogger NotificationCenterClient: failed to get optin data: NordVpn.Core.Errors.NordVpnApiException: There is no internet connection to proceed request ---> NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetOptInData>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<>c__DisplayClass13_0.<<GetOptInData>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<TokenCheck>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<GetOptInData>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterApiClient.<GetOptInData>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterClient.<OptInAsync>d__22.MoveNext() NordVpn.Core.Errors.NordVpnApiException: There is no internet connection to proceed request ---> NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetOptInData>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<>c__DisplayClass13_0.<<GetOptInData>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<TokenCheck>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<GetOptInData>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterApiClient.<GetOptInData>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterClient.<OptInAsync>d__22.MoveNext()
+2021-07-30 00:17:36.6367 INFO LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/servers?limit=2147483647&fields[id]=&fields[load]=. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:17:36.6367 ERROR BareNordVpnApiClient Failed to download server loads. No internet. NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsyncFullResponse>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsync>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetServersLoadWithLimit>d__46.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<<GetServersLoad>b__7_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Polly.Retry.AsyncRetryEngine.<ImplementationAsync>d__0`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy.<ExecuteAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Wrap.AsyncPolicyWrapEngine.<>c__DisplayClass1_0`1.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Fallback.AsyncFallbackEngine.<ImplementationAsync>d__0`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy`1.<ExecuteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Wrap.AsyncPolicyWrapEngine.<ImplementationAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy`1.<ExecuteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<GetServersLoad>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<Servers>d__6.MoveNext()
+2021-07-30 00:17:41.4896 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:17:41.5536 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:17:51.5081 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:17:51.5780 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:18:01.5178 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:18:01.5775 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:18:11.5257 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:18:11.6003 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:18:21.5179 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:18:21.5789 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:18:31.5267 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:18:31.5956 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:18:41.5203 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:18:41.5671 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:18:51.5297 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:18:51.5905 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:19:01.5301 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:19:01.5962 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:19:11.5377 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:19:11.5948 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:19:21.5406 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:19:21.6026 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:19:31.5533 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:19:31.6126 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:19:41.5642 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:19:41.6168 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:19:51.5704 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:19:51.6465 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:20:01.5772 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:20:01.6341 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:20:11.5878 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:20:11.6387 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:20:21.5881 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:20:21.6441 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:20:31.5894 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:20:31.6461 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:20:41.5770 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:20:41.6562 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:20:51.5966 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:20:51.6483 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:21:01.6046 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:21:01.6696 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:21:11.6238 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:21:11.6873 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:21:21.6472 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:21:21.7027 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:21:31.6379 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:21:31.7060 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:21:41.6522 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:21:41.6990 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:21:51.6468 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:21:51.7211 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:22:01.6444 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:22:01.7064 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:22:11.6388 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:22:11.7007 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:22:21.6448 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:22:21.6959 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:22:30.3202 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:22:30.3525 INFO ResiliencyHandler ResiliencyHandler: Using zwyr157wwiu6eior.com url 
+2021-07-30 00:22:31.6515 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:22:31.7127 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:22:36.5822 INFO LoggingHandler Request POST https://zwyr157wwiu6eior.com/v1/notifications/tokens. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:22:36.5822 ERROR NLogLogger NotificationCenterClient: failed to get optin data: NordVpn.Core.Errors.NordVpnApiException: There is no internet connection to proceed request ---> NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetOptInData>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<>c__DisplayClass13_0.<<GetOptInData>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<TokenCheck>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<GetOptInData>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterApiClient.<GetOptInData>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterClient.<OptInAsync>d__22.MoveNext() NordVpn.Core.Errors.NordVpnApiException: There is no internet connection to proceed request ---> NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetRequestStream(IAsyncResult asyncResult, TransportContext& context)
+   at System.Net.Http.HttpClientHandler.GetRequestStreamCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<SafeApiCall>d__43`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetOptInData>d__21.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<>c__DisplayClass13_0.<<GetOptInData>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<TokenCheck>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Authentication.AuthenticatedNordVpnApiClient.<GetOptInData>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterApiClient.<GetOptInData>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.NotificationCenter.NotificationCenterClient.<OptInAsync>d__22.MoveNext()
+2021-07-30 00:22:36.8434 INFO LoggingHandler Request GET https://zwyr157wwiu6eior.com/v1/servers?limit=2147483647&fields[id]=&fields[load]=. Failed to get response: NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext() 
+2021-07-30 00:22:36.8434 ERROR BareNordVpnApiClient Failed to download server loads. No internet. NordVpn.Core.Errors.NoInternetException: There is no internet connection to proceed request ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'zwyr157wwiu6eior.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Windows.HttpHandlers.DnsResolvingHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at NordVpn.Infrastructure.Resiliency.ResiliencyHandler.<SendAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.UserAgentHandler.<SendAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.HttpHandlers.LoggingHandler.<SendAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsyncFullResponse>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Core.Extensions.HttpClientExtensions.<GetGzipAsync>d__3`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Api.BareNordVpnApiClient.<GetServersLoadWithLimit>d__46.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<<GetServersLoad>b__7_0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Polly.Retry.AsyncRetryEngine.<ImplementationAsync>d__0`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy.<ExecuteAsync>d__21`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Wrap.AsyncPolicyWrapEngine.<>c__DisplayClass1_0`1.<<ImplementationAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Fallback.AsyncFallbackEngine.<ImplementationAsync>d__0`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy`1.<ExecuteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.Wrap.AsyncPolicyWrapEngine.<ImplementationAsync>d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Polly.AsyncPolicy`1.<ExecuteAsync>d__13.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<GetServersLoad>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at NordVpn.Infrastructure.Servers.UpdatedServersLoads.<Servers>d__6.MoveNext()
+2021-07-30 00:22:41.6494 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:22:41.7074 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:22:51.6494 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:22:51.7161 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:23:01.6457 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:23:01.7103 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:23:11.6392 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:23:11.6892 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:23:21.6408 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:23:21.7006 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:23:31.6520 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:23:31.7193 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:23:41.6540 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:23:41.7168 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:23:51.6727 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:23:51.7356 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:24:01.6892 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:24:01.7505 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:24:11.7042 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:24:11.7708 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:24:21.7150 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:24:21.7840 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:24:31.7238 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:24:31.7804 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:24:41.7450 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:24:41.8178 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:24:51.7505 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:24:51.8022 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:25:01.7657 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:25:01.8282 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:25:11.7666 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:25:11.8603 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:25:21.7669 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:25:21.8138 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 
+2021-07-30 00:25:31.7682 INFO CustomManagerClientBase`1 Calling service.channel 
+2021-07-30 00:25:31.8463 INFO ServiceChannelStatusClient ServiceChannelStatusManager: checking 

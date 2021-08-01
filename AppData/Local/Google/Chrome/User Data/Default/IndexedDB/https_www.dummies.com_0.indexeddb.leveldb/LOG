@@ -1,0 +1,6 @@
+2021/07/30-13:52:28.809 45f8 Creating DB C:\Users\Bruker\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.dummies.com_0.indexeddb.leveldb since it was missing.
+2021/07/30-13:52:28.821 45f8 Reusing MANIFEST C:\Users\Bruker\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.dummies.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/30-13:52:44.775 49c Level-0 table #5: started
+2021/07/30-13:52:44.777 49c Level-0 table #5: 1243 bytes OK
+2021/07/30-13:52:44.780 49c Delete type=0 #3
+2021/07/30-13:52:44.780 49c Manual compaction at level-0 from (begin) .. (end); will stop at (end)

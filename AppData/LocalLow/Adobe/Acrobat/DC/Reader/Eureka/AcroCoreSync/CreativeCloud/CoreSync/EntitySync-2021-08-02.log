@@ -1,0 +1,5 @@
+20210802-001103.482: t=25dc: Info: ES::cosylib: EntityClientImpl::getResourcesWithUnsyncedLocalChanges :  (EntityClientImpl.cpp.cosylib::EntityClientImpl::getResourcesWithUnsyncedLocalChanges.790)
+20210802-001103.498: t=25dc: Info: ES::cosylib: RequestHandle : 4bea06ad-499d-4dbf-afec-c276ea6f2a91 (EntityClientImpl.cpp.cosylib::EntityClientImpl::getResourcesWithUnsyncedLocalChanges.809)
+20210802-001103.498: t=26d8: Info: ES::cosylib: messageType :entitysync.out.response.resource.getresourceswithunsyncedlocalchanges responseJSON :{"responses":[{"responseType":0,"statusCode":200,"payload":{"code":"","message":"","collectionId":"","resourceId":""}}]} (EntityClientImpl.cpp.cosylib::EntityClientImpl::processEntitySyncResponse.1492)
+20210802-001103.498: t=26d8: Info: ES::cosylib: Cosylib GetResourcesWithUnsyncedLocalChanges Count: 0 (EntityClientImpl.cpp.cosylib::EntityClientImpl::handleGetResourcesWithUnsyncedLocalChanges.1445)
+20210802-001103.498: t=26d8: Info: ES::cosylib: Dispatch callback for : entitysync.out.response.resource.getresourceswithunsyncedlocalchanges (EntityClientImpl.cpp.cosylib::EntityClientImpl::processEntitySyncResponse.1580)

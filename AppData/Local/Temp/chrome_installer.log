@@ -1,0 +1,16 @@
+[0730/120330.882:VERBOSE1:setup_main.cc(1371)] Command Line: "C:\Program Files (x86)\Google\Chrome\Application\92.0.4515.107\Installer\chrmstp.exe" --configure-user-settings --verbose-logging --system-level --channel=stable
+[0730/120330.883:VERBOSE1:setup_main.cc(1377)] system install is 1
+[0730/120330.886:VERBOSE1:install_util.cc(216)] Existing Chrome version found: 92.0.4515.107
+[0730/120330.886:VERBOSE1:installer_state.cc(87)] Install Chrome
+[0730/120331.037:VERBOSE1:install_util.cc(247)] Windows NT 10.0.19043
+[0730/120331.115:VERBOSE1:install_worker.cc(871)] Adding unregistration items for per-user Metro keys.
+[0730/120331.115:VERBOSE1:work_item_list.cc(33)] Beginning execution of work item list Cleanup deprecated per-user registrations
+[0730/120331.115:VERBOSE1:install_util.cc(358)] Deleting registry key Software\Google\Chrome\Metro
+[0730/120331.115:VERBOSE1:install_util.cc(358)] Deleting registry key Software\Google\Chrome\Metro
+[0730/120331.115:VERBOSE1:work_item_list.cc(54)] Successful execution of work item list Cleanup deprecated per-user registrations
+[0730/120331.130:VERBOSE1:install.cc(118)] Overwriting per-user Desktop "Google Chrome" shortcut to C:\Program Files (x86)\Google\Chrome\Application\chrome.exe.
+[0730/120331.146:WARNING:install.cc(116)] Failed: Overwriting (maybe the shortcut doesn't exist?) per-user Desktop "Google Chrome" shortcut to C:\Program Files (x86)\Google\Chrome\Application\chrome.exe.
+[0730/120331.146:VERBOSE1:install.cc(118)] Overwriting per-user Quick Launch "Google Chrome" shortcut to C:\Program Files (x86)\Google\Chrome\Application\chrome.exe.
+[0730/120331.365:VERBOSE1:install.cc(118)] Overwriting per-user Start menu "Google Chrome" shortcut to C:\Program Files (x86)\Google\Chrome\Application\chrome.exe.
+[0730/120331.365:WARNING:install.cc(116)] Failed: Overwriting (maybe the shortcut doesn't exist?) per-user Start menu "Google Chrome" shortcut to C:\Program Files (x86)\Google\Chrome\Application\chrome.exe.
+[0730/120331.469:ERROR:persistent_histogram_storage.cc(146)] Persistent histograms fail to write to file: C:\Program Files (x86)\Google\Chrome\Application\SetupMetrics\20210730120331.pma
