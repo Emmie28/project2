@@ -1,0 +1,7 @@
+2021/07/29-23:13:00.155 391c Reusing MANIFEST C:\Users\Bruker\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.markdownguide.org_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/29-23:13:00.155 391c Recovering log #3
+2021/07/29-23:13:00.155 391c Reusing old log C:\Users\Bruker\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.markdownguide.org_0.indexeddb.leveldb/000003.log 
+2021/07/30-00:53:11.817 4304 Level-0 table #5: started
+2021/07/30-00:53:11.819 4304 Level-0 table #5: 1609 bytes OK
+2021/07/30-00:53:11.822 4304 Delete type=0 #3
+2021/07/30-00:53:11.823 4304 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,3 +1,101 @@
 2021-08-02 00:22:49.0451 INFO New update found: 6.38.15; current version: 6.37.5.0
 2021-08-02 00:22:49.0607 INFO Starting to download update
 2021-08-02 00:22:49.0607 INFO Update file download finished
+2021-08-02 07:39:25.0993 INFO New update found: 6.38.15; current version: 6.37.5.0
+2021-08-02 07:39:25.0993 INFO Starting to download update
+2021-08-02 07:39:25.0993 INFO Update file download finished
+2021-08-02 12:49:32.3107 ERROR Error while running updates check:. Exception: Nord.Updater.Flare.Net.FlareException: Failed to check for update. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'downloads.nordcdn.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.Internals.Feed.FeedDownloader.<DownloadAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.Internals.UpdateDownloader.<GetUpdate>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.Internals.UpdateManager.<FindNewestUpdate>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.FlareUpdater.<CheckForUpdate>d__6.MoveNext()
+   --- End of inner exception stack trace ---
+   at Nord.Updater.Flare.Net.FlareUpdater.<CheckForUpdate>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Nord.Updater.UpdateManager.<RunUpdater>d__42.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.UpdateManager.<RunAsync>d__40.MoveNext()
+2021-08-02 12:49:32.8106 INFO Initializing UpdateManager; iDelay: 3600, cDelay: 3600.
+2021-08-02 12:49:32.9356 INFO Running update check. Current app version: NordVPN/6.37.5.0
+2021-08-02 13:51:07.7961 INFO New update found: 6.38.15; current version: 6.37.5.0
+2021-08-02 13:51:07.7961 INFO Starting to download update
+2021-08-02 13:51:22.1028 INFO Update file download finished
+2021-08-02 17:09:56.7810 ERROR Error while running updates check:. Exception: Nord.Updater.Flare.Net.FlareException: Failed to check for update. ---> System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'downloads.nordcdn.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.Internals.Feed.FeedDownloader.<DownloadAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.Internals.UpdateDownloader.<GetUpdate>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.Internals.UpdateManager.<FindNewestUpdate>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.FlareUpdater.<CheckForUpdate>d__6.MoveNext()
+   --- End of inner exception stack trace ---
+   at Nord.Updater.Flare.Net.FlareUpdater.<CheckForUpdate>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Nord.Updater.UpdateManager.<RunUpdater>d__42.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.UpdateManager.<RunAsync>d__40.MoveNext()
+2021-08-02 17:09:56.8903 INFO Initializing UpdateManager; iDelay: 3600, cDelay: 3600.
+2021-08-02 17:09:56.9216 INFO Running update check. Current app version: NordVPN/6.37.5.0
+2021-08-02 21:49:17.4000 INFO New update found: 6.38.15; current version: 6.37.5.0
+2021-08-02 21:49:17.4020 INFO Starting to download update
+2021-08-02 21:50:57.6018 ERROR Error while running updates check:. Exception: Nord.Updater.Flare.Net.FlareException: Failed to update. ---> System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.Internals.SetupDownloader.<DownloadAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.Internals.UpdateDownloader.<GetSetupFile>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.Internals.UpdateManager.<DownloadNewestUpdate>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.Flare.Net.FlareUpdater.<DownloadUpdateAsync>d__7.MoveNext()
+   --- End of inner exception stack trace ---
+   at Nord.Updater.Flare.Net.FlareUpdater.<DownloadUpdateAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Nord.Updater.UpdateManager.<RunUpdater>d__42.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Nord.Updater.UpdateManager.<RunAsync>d__40.MoveNext()
+2021-08-02 21:50:58.0626 INFO Initializing UpdateManager; iDelay: 3600, cDelay: 3600.
+2021-08-02 21:50:58.1675 INFO Running update check. Current app version: NordVPN/6.37.5.0
